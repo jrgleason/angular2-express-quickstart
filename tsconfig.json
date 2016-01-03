@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "system",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "sourceMap":  true, 
+        "outDir":"./public/app"
+    } ,
+    "exclude": [
+      "node_modules",
+      "public",
+      "routes",
+      "views"
+    ]
+}
