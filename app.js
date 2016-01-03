@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/angular2', express.static(path.join(__dirname, 'node_modules/angular2/bundles/')));
 app.use('/rxjs', express.static(path.join(__dirname, 'node_modules/rxjs/bundles/')));
 app.use('/systemjs', express.static(path.join(__dirname, 'node_modules/systemjs/dist/')));
+app.use('/app', express.static(path.join(__dirname, 'ts/app/')));
 app.use('/', routes);
 app.use('/users', users);
 

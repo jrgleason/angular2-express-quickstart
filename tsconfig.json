@@ -6,8 +6,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "noImplicitAny": false,
-        "sourceMap":  true, 
-        "outDir":"./public/app"
+        "sourceMap":  true 
     } ,
     "exclude": [
       "node_modules",

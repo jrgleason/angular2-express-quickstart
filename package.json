@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "tsc": "tsc -w",
-    "start": "npm run tsc"
+    "start": "concurrent \"npm run tsc\" \"./bin/www\""
   },
   "dependencies": {
     "angular2": "2.0.0-beta.0",
